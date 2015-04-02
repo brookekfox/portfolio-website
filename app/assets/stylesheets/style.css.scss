@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Euclid', serif;
+  src: url('euclid.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Armonioso', serif;
+  src: url('Armonioso-trial.otf') format('otf');
+}
+$serif-font: 'Euclid', serif;
+$heading-font: 'Armonioso', sans-serif;
+
 a {
   width: 400px;
   border: 1px solid lightgray;
@@ -5,4 +16,26 @@ a {
   padding: 20px 60px 20px 60px;
   color: #06cc84; //light teal
   text-decoration: none;
+  font-family: $serif-font;
+  font-size: 20pt;
+  margin: 10px;
+}
+.navigation-buttons {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: $heading-font;
+  font-size: 60pt;
+}
+h3 {
+  font-family: $serif-font;
+//  font-size: pt;
+  margin-top: -60px;
+}
+.hello {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
