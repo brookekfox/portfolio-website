@@ -9,15 +9,21 @@
 $serif-font: 'Euclid', serif;
 $heading-font: 'Armonioso', sans-serif;
 
-a {
+body {
+//  background-image: url(geometry2.png);
+//  background-image: url(light_grey.png);
+  background-image: url(symphony.png);
+}
+.page-links {
   width: 400px;
   border: 1px solid lightgray;
+  border-radius: 8px;
   height: 100px;
-  padding: 20px 60px 20px 60px;
+  padding: 20px 70px 20px 70px;
   color: #06cc84; //light teal
   text-decoration: none;
   font-family: $serif-font;
-  font-size: 20pt;
+  font-size: 16pt;
   margin: 10px;
 }
 .navigation-buttons {
@@ -27,15 +33,92 @@ a {
 
 h1 {
   font-family: $heading-font;
-  font-size: 60pt;
+  font-size: 64pt;
+  color:darkblue;
+}
+#hello {
+  font-size:90pt;
 }
 h3 {
   font-family: $serif-font;
-//  font-size: pt;
   margin-top: -60px;
+  color: #06cc84;
+  font-size: 20pt;
+}
+#name {
+  color: darkblue;
+  font-family: $heading-font;
 }
 .hello {
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 140px;
+}
+.page-heading {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+h4 {
+  font-family: $heading-font;
+  color: #06cc84;
+  font-size: 22pt;
+}
+.about-box {
+  margin: 0 auto;
+  width: 80%;
+}
+#really-like, #about-me, #skills {
+  float: left;
+  width: 33.3333333%;
+  padding-top: 5px;
+}
+#really-like h4, #about-me h4, #skills h4 {
+  text-align: center;
+}
+#really-like p, #about-me p, #skills p {
+  text-align: center;
+  width:90%;
+  font-family: $serif-font;
+  color: darkblue;
+  margin: 0 auto;
+  line-height: 150%;
+}
+#really-like ul, #about-me ul, #skills ul {
+  list-style-type: none;
+  width:90%;
+  font-family: $serif-font;
+  color: darkblue;
+  margin: 0 auto;
+//  padding:0;
+//  margin:0;
+}
+#really-like li, #about-me li, #skills li {
+  line-height: 150%;
+}
+
+.links-box {
+  width:500px;
+  margin: 0 auto;
+}
+#github, #twitter, #email, #instagram, #linkedin {
+  width:100px;
+  height:100px;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+#github {
+  background-image: url(github.png);
+}
+#twitter {
+  background-image: url(twitter.png);
+}
+#email {
+  background-image: url(gmail.png);
+}
+#linkedin {
+  background-image: url(linkedin.png);
 }
