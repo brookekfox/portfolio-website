@@ -8,6 +8,7 @@
 }
 $serif-font: 'Euclid', serif;
 $heading-font: 'Armonioso', sans-serif;
+$teal: #06cc84;
 
 body {
   background-image: url(geometry2.png);
@@ -20,7 +21,7 @@ body {
   border-radius: 8px;
   height: 100px;
   padding: 20px 70px 20px 70px;
-  color: #06cc84; //light teal
+  color: $teal;
   text-decoration: none;
   font-family: $serif-font;
   font-size: 16pt;
@@ -30,7 +31,6 @@ body {
   width: 700px;
   margin: 0 auto;
 }
-
 h1 {
   font-family: $heading-font;
   font-size: 64pt;
@@ -42,7 +42,7 @@ h1 {
 h3 {
   font-family: $serif-font;
   margin-top: -60px;
-  color: #06cc84;
+  color: $teal;
   font-size: 20pt;
 }
 #name {
@@ -64,7 +64,7 @@ h3 {
 
 h4 {
   font-family: $heading-font;
-  color: #06cc84;
+  color: $teal;
   font-size: 22pt;
   margin-bottom: 50px;
 }
@@ -97,7 +97,7 @@ h4 {
   margin: 0 auto;
   line-height: 150%;
   text-decoration: none;
-  color:#06cc84;
+  color:$teal;
 }
 #really-like ul, #about-me ul, #skills ul {
   list-style-type: none;
@@ -123,7 +123,7 @@ h4 {
   margin: 0 10px 0 10px;
 }
 #github {
-  background-image: url(github.png);
+  background-image: url(heisencat.png);
 }
 #twitter {
   background-image: url(twitter.png);
@@ -134,7 +134,6 @@ h4 {
 #linkedin {
   background-image: url(linkedin.png);
 }
-
 
 .projjies-container {
   width: 80%;
@@ -162,7 +161,7 @@ h4 {
   position: relative;
   width: 350px;
   float: left;
-//  border: 1px solid darkblue;
+  border: 4px double $teal;
   border-radius: 10px;
 }
 span.text-content {
@@ -219,9 +218,15 @@ span.text-content {
   font-family: $serif-font;
   margin: 0 20px 0 20px;
 }
-
 .divider {
   margin: 0 auto;
   margin-top: -40px;
   width:240px;
+}
+a {
+  text-decoration: none;
+}
+#cv {
+  font-family: $heading-font;
+  color: $teal;
 }
